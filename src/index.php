@@ -43,6 +43,9 @@ $y
 echo 
 strlen
 ("Hello World!");//Get the length of the string "Hello World!".
+echo 
+strrev
+("Hello World!"); //Reverse the string "Hello World!"
 
 
 ?>
