@@ -193,7 +193,11 @@ function myFunction() {
   myFunction()
   ;//Call (execute) a function named myFunction.
 
-
+  function myFunction($fname, $lname) {
+    echo 
+  $fname
+  ;
+  }//Inside a function with two parameters, print the first parameter.
   
 
 ?>
