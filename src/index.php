@@ -118,5 +118,20 @@ else
   echo "3";
 }//Output "1" if $a is equal to $b, print "2" if $a is greater than $b, otherwise output "3".
 
+
+switch
+ ($color) {
+  
+case
+ "red":
+    echo "Hello";
+    break;
+  
+case
+ "green":
+    echo "Welcome";
+    break;
+}//Create a switch statement that will output "Hello" if $color is "red", and "welcome" if $color is "green".
+
 ?>
  
