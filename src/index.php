@@ -287,6 +287,9 @@ fgetc
 
 setcookie
 ("username", "John", time() + (86400 * 30), "/");//Create a cookie named "username".
+session_start();
+$_SESSION
+["favcolor"] = "green";//Create a session variable named "favcolor".
 
 
 ?>
