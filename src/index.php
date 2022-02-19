@@ -246,6 +246,10 @@ $y
 $colors = array("red", "green", "blue", "yellow"); 
 sort($colors)
 ;//Use the correct array method to sort the $colors array alphabetically.
+
+$colors = array("red", "green", "blue", "yellow"); 
+rsort($colors)
+;//Use the correct array method to sort the $colors array descending alphabetically.
   
 
 ?>
