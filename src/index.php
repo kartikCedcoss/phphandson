@@ -223,6 +223,11 @@ $age = array("Peter"
 "37", "Joe"
 =>
 "43");//Create an associative array containing the age of Peter, Ben and Joe.
+
+$age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+echo "Ben is " . 
+$age['Ben']
+ . " years old.";//Here you see an associative array. Output "age" of Ben.
   
 
 ?>
