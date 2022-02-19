@@ -48,7 +48,7 @@ strrev
 ("Hello World!"); //Reverse the string "Hello World!"
 $oldtxt = "Hello World!";
 $newtxt = 
-str-replace
+str_replace
 (
 "World"
 , 
@@ -56,6 +56,9 @@ str-replace
 , 
 $oldtxt
 ); //Replace the word "World" with the word "Dolly".
+echo 10 
+*
+ 5;//Multiply 10 with 5, and output the result.
 
 
 ?>
