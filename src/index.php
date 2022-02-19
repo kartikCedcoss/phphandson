@@ -267,6 +267,10 @@ echo date(
     "H:i:s"
     );//Use the correct format parameter to output the time like this: 12:44:44 (with hour as a 24-hour format).
 
+    <?php 
+    include 'footer.php'
+    ;?>//Write a correct syntax to include a file named "footer.php".
+
 
 ?>
  <form action="welcome.php" method="get">
