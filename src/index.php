@@ -46,6 +46,16 @@ strlen
 echo 
 strrev
 ("Hello World!"); //Reverse the string "Hello World!"
+$oldtxt = "Hello World!";
+$newtxt = 
+str-replace
+(
+"World"
+, 
+"Dolly"
+, 
+$oldtxt
+); //Replace the word "World" with the word "Dolly".
 
 
 ?>
