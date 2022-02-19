@@ -181,10 +181,19 @@ as
 }// Loop through the items in the $colors array.
 
 
-function myFunction
+function myFunction()
  {
   echo "Hello World!";
 }//Create a function named myFunction.
+
+function myFunction() {
+    echo "Hello World!";
+  }
+  
+  myFunction()
+  ;//Call (execute) a function named myFunction.
+
+
   
 
 ?>
