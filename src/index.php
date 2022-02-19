@@ -63,5 +63,9 @@ echo 10
  /
   2; //Divide 10 by 2, and output the result
 
+  var_dump($a 
+==
+ $b);//Use the correct comparison operator to check if $a is equal to $b.
+
 ?>
  
