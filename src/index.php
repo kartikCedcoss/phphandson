@@ -256,8 +256,12 @@ asort($age)
 
 
 echo 
-date("1")
+date("l")
 ;//Use the correct date function to output the weekday of today (monday, tuesday etc.).
+
+echo date(
+    "Y.m.d"
+    );//Use the correct format parameter to output a date like this: 2022.02.19.
 
 
 ?>
