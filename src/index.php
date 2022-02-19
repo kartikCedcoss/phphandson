@@ -275,6 +275,15 @@ echo date(
 echo 
 readfile("webdict.txt")
 ;//Assume we have a file named "webdict.txt", write the correct syntax to open and read the file content
+$myfile = fopen("webdict.txt", "r");
+
+while(!
+feof
+($myfile)) {
+  echo 
+fgetc
+($myfile);
+} //Open a file, and write the correct syntax to output one character at the time, until end-of-file.
 
 
 ?>
