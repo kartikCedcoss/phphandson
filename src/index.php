@@ -22,7 +22,12 @@ multi-line
 comment
 */ 
 echo "Hello World"
-;
+;//Statements in PHP have to end with a special character, which one?
+
+$tst
+ = "
+Hello
+";
 
 ?>
 
