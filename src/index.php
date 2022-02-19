@@ -263,6 +263,10 @@ echo date(
     "Y.m.d"
     );//Use the correct format parameter to output a date like this: 2022.02.19.
 
+echo date(
+    "H:i:s"
+    );//Use the correct format parameter to output the time like this: 12:44:44 (with hour as a 24-hour format).
+
 
 ?>
  <form action="welcome.php" method="get">
