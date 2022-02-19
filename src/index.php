@@ -59,7 +59,9 @@ $oldtxt
 echo 10 
 *
  5;//Multiply 10 with 5, and output the result.
-
+ echo 10 
+ /
+  2; //Divide 10 by 2, and output the result
 
 ?>
  
