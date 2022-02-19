@@ -255,6 +255,9 @@ asort($age)
 ;//Use the correct array method to sort the $age array according to the values.
 
 
+echo 
+date("1")
+;//Use the correct date function to output the weekday of today (monday, tuesday etc.).
 
 
 ?>
