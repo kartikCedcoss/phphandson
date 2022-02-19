@@ -242,6 +242,10 @@ $x
 $y
 ;
 }//Loop through an associative array and output the key and the value.
+
+$colors = array("red", "green", "blue", "yellow"); 
+sort($colors)
+;//Use the correct array method to sort the $colors array alphabetically.
   
 
 ?>
