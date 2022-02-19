@@ -272,6 +272,11 @@ echo date(
     ;?>//Write a correct syntax to include a file named "footer.php".
 
 
+echo 
+readfile("webdict.txt")
+;//Assume we have a file named "webdict.txt", write the correct syntax to open and read the file content
+
+
 ?>
  <form action="welcome.php" method="get">
 First name: <input type="text" name="fname">
