@@ -290,6 +290,9 @@ setcookie
 session_start();
 $_SESSION
 ["favcolor"] = "green";//Create a session variable named "favcolor".
+cho 
+$_SESSION["favcolor"]
+;//Output the value of the session variable "favcolor".
 
 
 ?>
