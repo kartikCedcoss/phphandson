@@ -285,6 +285,9 @@ fgetc
 ($myfile);
 } //Open a file, and write the correct syntax to output one character at the time, until end-of-file.
 
+setcookie
+("username", "John", time() + (86400 * 30), "/");//Create a cookie named "username".
+
 
 ?>
  <form action="welcome.php" method="get">
