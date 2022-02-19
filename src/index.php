@@ -162,6 +162,14 @@ do
 } 
 while
  ($i < 6); //Output $i as long as $i is less than 6.
+
+
+for
+($i = 0; $i < 10; 
+$i++
+) {
+ echo $i;
+}//Create a loop that runs from 0 to 9.
   
 
 ?>
