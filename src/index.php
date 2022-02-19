@@ -153,6 +153,15 @@ switch ($color) {
     echo $i;
     $i++;
   }//Output $i as long as $i is less than 6.
+  $i = 1; 
+
+do
+ {
+    echo $i;
+    $i++;
+} 
+while
+ ($i < 6); //Output $i as long as $i is less than 6.
   
 
 ?>
