@@ -211,6 +211,11 @@ function myFunction() {
 echo 
 count($fruits)
 ;//Use the correct function to output the number of items in an array.
+
+$fruits = array("Apple", "Banana", "Orange");
+echo 
+$fruits[1]
+;//Output the second item in the $fruits array.
   
 
 ?>
