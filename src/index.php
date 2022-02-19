@@ -66,6 +66,9 @@ echo 10
   var_dump($a 
 ==
  $b);//Use the correct comparison operator to check if $a is equal to $b.
+ var_dump($a 
+!=
+ $b);//Use the correct comparison operator to check if $a is NOT equal to $b.
 
 ?>
  
